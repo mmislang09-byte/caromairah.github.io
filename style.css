@@ -6,6 +6,11 @@ background-color:green2;
 padding:10px;
 }
 
+h2 {
+color:darkgreen;
+font-family:helvetica;
+}
+	
 body{
 	background-color:lightpink;
 }
