@@ -2,8 +2,8 @@ h1 {
 color:darkgreen;
 text-align: center;
 font-family:helvetica;
-border style: dotted
-border: 5px white;
+border style: dotted 5px 
+border color: white;
 background-color:#AFE1AF;
 padding:10px;
 }
