@@ -17,6 +17,10 @@ body{
 	text-align: center;
 }
 
+p{
+	color:#355E3B
+}
+		
 .monkee{
 	background-color: palevioletred;
 	border: double oldlace 5px;
