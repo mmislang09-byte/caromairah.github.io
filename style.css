@@ -2,6 +2,8 @@ h1 {
 color:darkgreen;
 font-family:helvetica;
 border: 5px white;
+background-color:lightgreen;
+padding:10px;
 }
 
 body{
