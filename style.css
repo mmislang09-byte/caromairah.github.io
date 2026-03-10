@@ -7,9 +7,11 @@ body{
 	text-align: center;
 	font-family:helvetica;
 	margin: auto 100px;
+	padding-top: 150px;
 }
 
 .header{
+	position: fixed;
 	background-color:#AFE1AF;
 	color:indianred;
 	font-family: helvetica;
@@ -17,6 +19,10 @@ body{
 	padding: 10px;
 	text-align: center;
 	margin: auto;
+	margin-left: 1px;
+	top: 0px;
+	width: calc(100% - 17px);
+	box-shadow: 0 10px 25px rgba(219, 112, 147, .75);
 }
 
 ul{
