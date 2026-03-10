@@ -11,7 +11,6 @@ body{
 }
 
 .header{
-	position: fixed;
 	background-color:#AFE1AF;
 	color:indianred;
 	font-family: helvetica;
@@ -33,6 +32,7 @@ ul{
 	background-color: yellowgreen;
 	display: flex;
 	justify-content: center;
+	position: fixed;
 }
 
 ul li{
