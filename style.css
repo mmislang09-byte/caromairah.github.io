@@ -1,3 +1,58 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-color:lightpink;
+	text-align: center;
+	font-family:helvetica;
+	padding:20px;
+	padding-top: 100px;
+}
+
+.header{
+position: fixed;
+background-color:#AFE1AF;
+color:indianred;
+font-family: helvetica;
+border: dotted 5px;
+border-color: oldlace;
+padding: 10px;
+text-align: center;
+margin: auto;
+margin-left: 1px;
+top: 0px;
+width: calc(100% - 17px);
+}
+
+ul{
+	list-style-type: none;
+	margin: 5px 0px;
+	padding: 0;
+	overflow: hidden;
+	background-color: yellowgreen;
+	display: flex;
+	justify-content: center;
+}
+
+ul li{
+	padding: 0px;
+	font-weight: bold;
+	float: left;
+	border-right: 1px solid indianred;
+}
+
+ul li a{
+	text-decoration: none;
+	padding: 5px 10px;
+	color: indianred;
+	display: block;
+}
+
+ul li:last-child{
+	border-right: none;
+}
+
 h1 {
 color:darkgreen;
 text-align: center;
@@ -12,12 +67,12 @@ h2 {
 color:darkgreen;
 font-family:helvetica;
 }
-	
-body{
-	background-color:lightpink;
-	text-align: center;
-	font-family:helvetica;
-	padding:20px;
+
+.flex{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 
 p{
@@ -33,7 +88,19 @@ p{
 	padding: 5px;
 }
 
-
 .bigguy{
 	padding: 10px;
+}
+
+#mainmenu a:hover{
+	background-color: #000;
+	color: #ffffff;
+}
+
+.assignmentcontent{
+	border: double oldlace 5px;
+	background-color: peachpuff;
+	padding: 5px 20px;
+	margin: 15px 50px;
+	text-align: left;
 }
