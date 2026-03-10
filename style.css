@@ -6,13 +6,14 @@ body{
 	background-color:lightpink;
 	text-align: center;
 	font-family:helvetica;
+	margin: auto 100px;
 }
 
 .header{
 	background-color:#AFE1AF;
 	color:indianred;
 	font-family: helvetica;
-	border: 5px dotted oldlace;
+	border: 5px double oldlace;
 	padding: 10px;
 	text-align: center;
 	margin: auto;
@@ -43,12 +44,6 @@ ul li a{
 
 ul li:last-child{
 	border-right: none;
-}
-
-body{
-	background-color:lightpink;
-	text-align: center;
-	font-family:helvetica;
 }
 
 .flex{
@@ -91,4 +86,8 @@ p{
 	padding: 5px 20px;
 	margin: 15px 50px;
 	text-align: left;
+}
+
+.container{
+	margin-bottom: 150px;
 }
