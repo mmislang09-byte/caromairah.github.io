@@ -1,28 +1,21 @@
 *{
 	box-sizing: border-box;
 }
-
+	
 body{
 	background-color:lightpink;
 	text-align: center;
 	font-family:helvetica;
-	padding:20px;
-	padding-top: 100px;
 }
 
 .header{
-position: fixed;
-background-color:#AFE1AF;
-color:indianred;
-font-family: helvetica;
-border: dotted 5px;
-border-color: oldlace;
-padding: 10px;
-text-align: center;
-margin: auto;
-margin-left: 1px;
-top: 0px;
-width: calc(100% - 17px);
+	background-color:#AFE1AF;
+	color:indianred;
+	font-family: helvetica;
+	border-color: oldlace;
+	padding: 10px;
+	text-align: center;
+	margin: auto;
 }
 
 ul{
@@ -38,7 +31,6 @@ ul{
 ul li{
 	padding: 0px;
 	font-weight: bold;
-	float: left;
 	border-right: 1px solid indianred;
 }
 
@@ -53,19 +45,10 @@ ul li:last-child{
 	border-right: none;
 }
 
-h1 {
-color:darkgreen;
-text-align: center;
-font-family:helvetica;
-border style: dotted 5px 
-border color: white;
-background-color:#AFE1AF;
-padding:10px;
-}
-
-h2 {
-color:darkgreen;
-font-family:helvetica;
+body{
+	background-color:lightpink;
+	text-align: center;
+	font-family:helvetica;
 }
 
 .flex{
@@ -75,8 +58,18 @@ font-family:helvetica;
 	flex-wrap: wrap;
 }
 
+h2 {
+color:darkgreen;
+font-family:helvetica;
+}
+
 p{
 	color:#355E3B
+}
+
+#mainmenu a:hover{
+	background-color: #000;
+	color: #ffffff;
 }
 		
 .monkee{
@@ -90,11 +83,6 @@ p{
 
 .bigguy{
 	padding: 10px;
-}
-
-#mainmenu a:hover{
-	background-color: #000;
-	color: #ffffff;
 }
 
 .assignmentcontent{
