@@ -32,12 +32,12 @@ ul{
 	background-color: yellowgreen;
 	display: flex;
 	justify-content: center;
-	position: fixed;
 }
 
 ul li{
 	padding: 0px;
 	font-weight: bold;
+	float: left;
 	border-right: 1px solid indianred;
 }
 
