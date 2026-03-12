@@ -21,7 +21,7 @@ body{
 	box-shadow: 0 10px 25px rgba(219, 112, 147, .75);
 }
 
-ul{
+.header ul{
 	list-style-type: none;
 	margin: 5px 0px;
 	padding: 0;
@@ -29,25 +29,23 @@ ul{
 	background-color: yellowgreen;
 	display: flex;
 	justify-content: center;
-	position: sticky;
-	top: 0;
 }
 
-ul li{
+.header ul li{
 	padding: 0px;
 	font-weight: bold;
 	float: left;
 	border-right: 1px solid indianred;
 }
 
-ul li a{
+.header ul li a{
 	text-decoration: none;
 	padding: 5px 10px;
 	color: indianred;
 	display: block;
 }
 
-ul li:last-child{
+.header ul li:last-child{
 	border-right: none;
 }
 
@@ -91,6 +89,10 @@ p{
 	padding: 5px 20px;
 	margin: 15px 50px;
 	text-align: left;
+}
+
+.assignmentcontent p{
+	color: black;
 }
 
 .container{
