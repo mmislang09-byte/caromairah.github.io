@@ -10,6 +10,15 @@ body{
 	padding-top: 20px;
 }
 
+h2 {
+color:darkgreen;
+font-family:helvetica;
+}
+
+p{
+	color:#355E3B
+}
+
 .header{
 	background-color:#AFE1AF;
 	color:indianred;
@@ -56,39 +65,19 @@ body{
 	flex-wrap: wrap;
 }
 
-h2 {
-color:darkgreen;
-font-family:helvetica;
-}
-
-p{
-	color:#355E3B
-}
-
 #mainmenu a:hover{
 	background-color: #000;
 	color: #ffffff;
-}
-
-.monkee{
-	background-color: palevioletred;
-	border: double oldlace 5px;
-	display:inline-block;
-	text-align: center;
-	font: italic small-caps bold 25px/1.5 Helvetica, Arial, sans-serif;;
-	padding: 5px;
-}
-
-.bigguy{
-	padding: 10px;
 }
 
 .assignmentcontent{
 	border: double oldlace 5px;
 	background-color: peachpuff;
 	padding: 5px 20px;
+	padding-bottom: 20px;
 	margin: 15px 50px;
 	text-align: left;
+	line-height: 1.5em;
 }
 
 .assignmentcontent p{
@@ -97,4 +86,24 @@ p{
 
 .container{
 	margin-bottom: 150px;
+}
+
+.associations ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
+
+.associations li a {
+  display: block;
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.associations li a:hover {
+  background-color: yellowgreen;
+  color: indianred;
 }
