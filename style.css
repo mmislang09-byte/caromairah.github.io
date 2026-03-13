@@ -105,7 +105,7 @@ p{
 	color: black;
 }
 
-.monkee{
+#monkee{
 	background-color: peachpuff;
 	width: calc(100% - 900px);
 	height: auto;
@@ -120,7 +120,7 @@ p{
 	aspect-ratio: 1 / 1;
 }
 
-.monkee img{
+#monkee img{
 	width: calc(100% - 200px);
 	height: auto;
 }
@@ -160,7 +160,7 @@ p{
 }
 
 @media all and (max-width:768px) {
-	.monkee{
+	#monkee{
 		width:100%;
 	}
 }
