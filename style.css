@@ -164,7 +164,7 @@ p{
 	}
 }
 
-@media all and (max-width:500px) {
+@media all and (max-width:100px) {
 	.monkee img{
 	width: 100%;
 	}
