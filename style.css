@@ -1,3 +1,4 @@
+
 *{
 	box-sizing: border-box;
 }
@@ -27,8 +28,10 @@ h1 {
 h2 {
 	color:darkgreen;
 	font-family: "Jacquard 24";
-	font-size: 40px;
+	margin: 0px auto;
+	font-size: 50px;
 }
+
 p{
 	color:#355E3B
 }
@@ -36,7 +39,7 @@ p{
 .header{
 	background-color:#AFE1AF;
 	color:indianred;
-	font-family: helvetica;
+	font-family: "Times New Roman", serif;
 	border: 5px dotted oldlace;
 	padding: 10px;
 	text-align: center;
@@ -94,6 +97,8 @@ p{
 	margin: 15px 50px;
 	text-align: left;
 	line-height: 2;
+	font-family: "Times New Roman", serif;
+	font-size: 11pt;
 }
 
 .assignmentcontent p{
@@ -104,7 +109,7 @@ p{
 	margin-bottom: 150px;
 }
 
-.associations ul {
+.weblist ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -112,14 +117,14 @@ p{
   background-color: #f1f1f1;
 }
 
-.associations li a {
+.weblist li a {
   display: block;
   color: black;
   padding: 8px 16px;
   text-decoration: none;
 }
 
-.associations li a:hover {
+.weblist li a:hover {
   background-color: yellowgreen;
   color: indianred;
 }
