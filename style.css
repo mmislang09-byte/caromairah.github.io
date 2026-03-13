@@ -106,10 +106,23 @@ p{
 }
 
 .monkee{
-	display:inline-block;
+	background-color: peachpuff;
+	width: calc(100% - 900px);
+	height: auto;
+	border: double oldlace 5px;
 	text-align: center;
-	font: italic small-caps bold 25px/1.5 Helvetica, Arial, sans-serif;;
+	font: italic small-caps bold 16pt Helvetica, Arial, sans-serif;
 	padding: 5px;
+	margin: 10px;
+	display: inline-block;
+	flex-wrap: wrap;
+	overflow: hidden;
+	aspect-ratio: 1 / 1;
+}
+
+.monkee img{
+	width: calc(100% - 200px);
+	height: auto;
 }
 
 .container{
@@ -137,30 +150,34 @@ p{
 }
 
 .graph{
-	width: calc(100% - 255px);
+	width: calc(100% - 100px);
 	background-color: palevioletred;
 	border: double oldlace 5px;
-	display:inline-block;
-	text-align: center;
+	display:flex;
 	padding: 30px;
 	margin-left:20px;
+	justify-content: center;
 }
 
 @media all and (max-width:768px) {
-	nav{
-		width:100%;
-	}
 	.monkee{
 		width:100%;
-	}
-	}
-	.assignmentcontent img{
-	width: 49%;
 	}
 }
 
 @media all and (max-width:500px) {
-	.assignmentcontent img{
+	.monkee img{
 	width: 100%;
 	}
+	.graph img{
+		width: 100%;
+	}
+}
+
+#nala img{
+	width: 100%;
+}
+
+#sparkee img{
+	width: calc(100% - 87px);
 }
