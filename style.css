@@ -14,13 +14,21 @@ body{
   font-family: "Jacquard 24", system-ui;
   font-weight: 400;
   font-style: normal;
+  padding: 5px;
+}
+
+h1 {
+	color:indianred;
+	font-family: "Jacquard 24";
+	font-size: 70px;
+	margin: 20px auto;
 }
 
 h2 {
-color:darkgreen;
-font-family:helvetica;
+	color:darkgreen;
+	font-family: "Jacquard 24";
+	font-size: 40px;
 }
-
 p{
 	color:#355E3B
 }
@@ -32,6 +40,7 @@ p{
 	border: 5px dotted oldlace;
 	padding: 10px;
 	text-align: center;
+	overflow: hidden;
 	margin: auto;
 	box-shadow: 0 10px 25px rgba(219, 112, 147, .75);
 }
@@ -51,6 +60,7 @@ p{
 	font-weight: bold;
 	float: left;
 	border-right: 1px solid indianred;
+	font-family: helvetica;
 }
 
 .header ul li a{
@@ -83,7 +93,7 @@ p{
 	padding-bottom: 20px;
 	margin: 15px 50px;
 	text-align: left;
-	line-height: 1.5em;
+	line-height: 2;
 }
 
 .assignmentcontent p{
